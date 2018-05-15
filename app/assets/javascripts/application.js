@@ -12,6 +12,5 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require_tree .
 //= require jquery-3.3.1
-//= jquery.fancybox.min.js
+//= require jquery.fancybox.min

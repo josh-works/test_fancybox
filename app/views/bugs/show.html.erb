@@ -14,15 +14,27 @@
 <%= link_to 'Back', bugs_path %>
 
 <p>
-  lol this is me
+  <a id="test" href="" class="btn btn-primary">Open demo</a>
 </p>
 
+<div id="test_modal">
+  <div>
+    <h2>save some stuff</h2>
+  </div>
+  <div>
+    <p>Please enter a thing to save.</p>
+    <input type="text" id="save_stuff" class="span5" /><br />
+    <button id="save_stuff_btn" class="btn btn-success">Save</button>
+  </div>
+</div>
 
-<p class="imglist">
-  <a href="https://source.unsplash.com/RF5sv5dv1Zc/1500x1000" data-fancybox data-caption="This image has a caption">
-      <img src="https://source.unsplash.com/RF5sv5dv1Zc/240x160" />
-  </a>
 
-  <a href="https://source.unsplash.com/Sj5efgWguDs/1500x1000" data-fancybox>
-    <img src="https://source.unsplash.com/Sj5efgWguDs/240x160" />
-</p>
+
+<div>
+  <p class="imglist">
+    <a href="https://source.unsplash.com/Sj5efgWguDs/1500x1000" data-fancybox>
+      <img src="https://source.unsplash.com/Sj5efgWguDs/240x160" />
+  </p>
+</div>
+
+<script src="<%= javascript_url 'testfancybox'%>"></script>
